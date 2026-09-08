@@ -1,0 +1,71 @@
+body
+{
+    margin:0px;
+    background-color:gainsboro;
+}
+#wrapper
+{
+    width: 1400px;
+    margin: auto;
+}
+#top
+{
+    background-color: #252525;
+    height: 24px;
+    width: 100%;
+    padding-top: 10px;
+    color: #ffffff;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+#toplinks
+{
+    margin-left: 115px;
+    float:left;
+}
+#top a:hover
+{
+    color: #f26
+}
+.divider
+{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+#rightinfo
+{
+    float:right;
+    margin-left: 220px;
+}
+#header
+{
+    height: 81px;
+    background-color: #ffffff;
+    width: 100%;
+    color: black;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+#header a:hover
+{
+    color: #f7641d;
+}
+#headerleft
+{
+    float:left;
+    margin-left: 144px;
+    padding-top: 34px;
+}
+#headermid
+{
+    float:left;
+    padding-left: 120px;
+}
+#headerright
+{
+    float:left;
+    margin-left: 120px;
+    padding-top: 34px;
+}
