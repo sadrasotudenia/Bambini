@@ -1,71 +1,115 @@
 body
 {
-    margin:0px;
+    margin:0;
     background-color:gainsboro;
 }
+
 #wrapper
 {
-    width: 1400px;
-    margin: auto;
+    width:1400px;
+    margin:auto;
 }
+
 #top
 {
     background-color: #252525;
     height: 24px;
     width: 100%;
     padding-top: 10px;
-    color: #ffffff;
-    font-family: Verdana, Geneva, sans-serif;
+    color:#ffffff;
+    font-family: Verdana;
     font-size: 12px;
     letter-spacing: 1px;
 }
+
 #toplinks
 {
     margin-left: 115px;
     float:left;
 }
+
+#top a
+{
+    text-decoration: none;
+    color:#ffffff; 
+}
+
 #top a:hover
 {
-    color: #f26
+    color:#f7941d;
 }
+
 .divider
 {
     padding-left: 8px;
     padding-right: 8px;
 }
+
 #rightinfo
 {
-    float:right;
-    margin-left: 220px;
+    float:left;
+    margin-left:220px;
 }
+
 #header
 {
-    height: 81px;
+    height:81px;
     background-color: #ffffff;
-    width: 100%;
-    color: black;
-    font-family: Verdana, Geneva, sans-serif;
+    width:100%;
+    color:#000000;
+    font-family: Verdana;
     font-size: 12px;
     letter-spacing: 1px;
 }
+
+#header a
+{
+    text-decoration: none;
+    color:#000000;
+}
+
 #header a:hover
 {
-    color: #f7641d;
+    color:#f7941d;
 }
+
 #headerleft
 {
     float:left;
-    margin-left: 144px;
-    padding-top: 34px;
+    padding-left:144px;
+    padding-top:34px;
 }
+
 #headermid
 {
     float:left;
-    padding-left: 120px;
+    padding-left:120px;
 }
+
 #headerright
 {
-    float:left;
-    margin-left: 120px;
-    padding-top: 34px;
+    float:left; 
+    padding-left:120px;
+    padding-top:34px;
+}
+
+#frontImage
+{
+    background-image: url(front.jpg);
+    height: 582px
+}
+#shopNowButton
+{
+    background-color: #f7641d;
+    font-family: Verdana, sans-serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    width: 200px;
+    height: 54px;
+    border: 0px;
+    position: relative;
+    top: 364px;
+    left: 214px;
+    cursor: pointer;
 }
