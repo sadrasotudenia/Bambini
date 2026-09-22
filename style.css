@@ -96,20 +96,67 @@ body
 #frontImage
 {
     background-image: url(front.jpg);
-    height: 582px
+    height: 582px;
 }
-#shopNowButton
+
+#categories td
 {
-    background-color: #f7641d;
+    padding: 30px 0px 0px 30px;
     font-family: Verdana, sans-serif;
     font-size: 18px;
     letter-spacing: 1px;
-    color: #ffffff;
-    width: 200px;
-    height: 54px;
-    border: 0px;
+    color: #000000;
+    text-align: center;
+}
+
+#categories td a:hover
+{
+    color: #f7641d;
+}
+
+#newsletter
+{
+    background-image: url("newsletter.jpg");
+    background-repeat: no-repeat;
+    background-color: #c69c6c;
+    height: 218px;
+    padding-top: 100px;
+}
+
+#newsletter h1 
+{
+    display: inline;
+    font-size: 58px;
+    margin-right: 46px;
+}
+
+#newsletter h2
+{
+    display: inline;
+    font-weight: lighter;
+    font-size: 38px;
+    letter-spacing: 4px;
+    margin-right: 40px;
+}
+#email
+{
+    height: 34px;
+    width: 380px;
+    font-size: 16px;
+    color: black;
+    padding-left: 20px;
     position: relative;
-    top: 364px;
-    left: 214px;
-    cursor: pointer;
+    top: -6px;
+}
+#subscribe
+{
+    background-color: #252525;
+    color: #ffffff;
+    font-family: Verdana, sans-serif;
+    letter-spacing: 1px;
+    font-size: 16px;
+    height: 40px;
+    width: 404px;
+    position: relative;
+    top: -12px;
 }
